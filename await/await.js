@@ -34,8 +34,8 @@ async function sendPost(method, url, body){
 }
 
 const body = {
-    name: 'Alex',
-    age: 23,
+    name: 'Leanne Graham',
+    username: 'Bret',
 }
 
 sendPost('POST', requestURL, body)
