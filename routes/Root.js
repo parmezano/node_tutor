@@ -1,13 +1,13 @@
-import express from 'express';
+const express = require('express');
 const router = express.Router();
-import {users} from '../data.js'
+const users = require('../data.js');
 
 router.post('/', (req, res) => {
-    res.send()
+    res.send(req.body)
 })
 
 router.get('/', (req, res) => {
     res.send(users)
 })
 
-export default router;
+module.exports = router;

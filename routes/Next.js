@@ -1,5 +1,4 @@
-import express from 'express';
-import path from "path";
+const express = require('express');
 const router = express.Router();
 
 router.get('/', (req,res) => {
@@ -7,4 +6,4 @@ router.get('/', (req,res) => {
    // res.sendFile('');
 });
 
-export default router;
+module.exports = router;

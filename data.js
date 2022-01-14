@@ -1,4 +1,4 @@
-export const users =
+module.exports = users =
 [
     {
         "id": 1,
